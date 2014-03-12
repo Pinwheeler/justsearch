@@ -1,3 +1,24 @@
+from distutils.core import setup
+
+setup (
+	name = "boss_search",
+	packages = ["boss_search"],
+	version = "0.2",
+	description = "helpful Yahoo BOSS api interfacer",
+	author = "Anthony Dreessen",
+	author_email = "anthonydreessen@gmail.com",
+	url = 
+	keywords = ["Yahoo", "BOSS", "search", "BOSS API", "websearch"],
+	classifiers = [
+		"Programming Language :: Python",
+		"Programming Language :: Python :: 2.7",
+		"Intended Audience :: Developers",
+		"License :: OSI Approved :: The MIT License (MIT)",
+		"Operating System :: OS Independent",
+		"Topic :: Software Development :: Libraries :: Python Modules",
+		"Topic :: Search Engine API :: Yahoo BOSS"
+	],
+	long_description = """\
 	Yahoo BOSS Search Engine API Integration
 	----------------------------------------
 
@@ -42,3 +63,6 @@
 	Searcher.title 		#returns results with the title argument in the title
 	Searcher.url 		#returns results with the url argument in the url
 	Searcher.style 		#changes the style of the returned results (style=raw cleans out HTML)
+	"""
+
+	)
