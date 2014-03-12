@@ -2,11 +2,13 @@ from distutils.core import setup
 
 setup (
 	name = "justsearch",
-	version = "0.2",
+	py_modules=['justsearch'],
+	version = "0.2.2",
 	description = "helpful Yahoo BOSS api interfacer",
 	author = "Anthony Dreessen",
 	author_email = "anthonydreessen@gmail.com",
 	url = "https://github.com/Pinwheeler/boss_search",
+	install_requires = ['oauth2'],
 	classifiers = [
 		"Development Status :: 4 - Beta",
 		"Environment :: Other Environment",
