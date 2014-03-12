@@ -1,22 +1,22 @@
 from distutils.core import setup
 
 setup (
-	name = "boss_search",
-	packages = ["boss_search"],
+	name = "justsearch",
 	version = "0.2",
 	description = "helpful Yahoo BOSS api interfacer",
 	author = "Anthony Dreessen",
 	author_email = "anthonydreessen@gmail.com",
-	url = 
-	keywords = ["Yahoo", "BOSS", "search", "BOSS API", "websearch"],
+	url = "https://github.com/Pinwheeler/boss_search",
 	classifiers = [
-		"Programming Language :: Python",
-		"Programming Language :: Python :: 2.7",
+		"Development Status :: 4 - Beta",
+		"Environment :: Other Environment",
 		"Intended Audience :: Developers",
-		"License :: OSI Approved :: The MIT License (MIT)",
+		"License :: OSI Approved :: MIT License",
 		"Operating System :: OS Independent",
-		"Topic :: Software Development :: Libraries :: Python Modules",
-		"Topic :: Search Engine API :: Yahoo BOSS"
+		"Programming Language :: Python :: 2.7",
+		"Topic :: Internet",
+		"Topic :: Internet :: WWW/HTTP :: Browsers",
+		"Topic :: Internet :: WWW/HTTP",
 	],
 	long_description = """\
 	Yahoo BOSS Search Engine API Integration
