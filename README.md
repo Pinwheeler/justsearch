@@ -1,6 +1,6 @@
-# DEPRECATED
+**---DEPRECATED:: Yahoo removed their API search in 2016---**
 
-Yahoo removed their API search in 2016
+
 
 Yahoo BOSS Search Engine API Integration
 ========================================
